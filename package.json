@@ -52,6 +52,7 @@
     "golang.go",
     "golang.go-nightly",
     "matklad.rust-analyzer",
+    "rust-lang.rust-analyzer",
     "shopify.ruby-lsp",
     "sswg.swift-lang",
     "fwcd.kotlin",
