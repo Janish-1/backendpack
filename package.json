@@ -1,65 +1,90 @@
 {
   "name": "backendpack",
   "displayName": "BackendPack",
-  "description": "Backend Development Kit",
+  "description": "AI-free backend development kit: Python, Java, PHP/Laravel, .NET, Go, Rust, Ruby, Kotlin, databases, containers and DevOps.",
   "publisher": "JanishPancholi",
-  "version": "0.0.2",
+  "version": "0.1.0",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.100.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
+  "keywords": [
+    "backend",
+    "extension pack",
+    "python",
+    "java",
+    "php",
+    "go",
+    "rust",
+    "database",
+    "docker"
+  ],
+  "extensionPack": [
     "eamodio.gitlens",
-    "donjayamanne.githistory",
     "mhutchie.git-graph",
     "codezombiech.gitignore",
-    "dbaeumer.vscode-eslint",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "formulahendry.code-runner",
-    "ritwickdey.LiveServer",
+
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree",
+    "humao.rest-client",
+    "42Crunch.vscode-openapi",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
     "yzhang.markdown-all-in-one",
-    "ms-azuretools.vscode-docker",
-    "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "ms-vscode-remote.remote-ssh",
-    "ms-vscode-remote.remote-wsl",
-    "ms-vscode-remote.remote-containers",
+
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+
     "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ms-toolsai.jupyter",
-    "ms-python.debugpy",
+    "charliermarsh.ruff",
     "batisteo.vscode-django",
     "KevinRose.vsc-python-indent",
-    "donjayamanne.python-environment-manager",
     "njpwerner.autodocstring",
-    "redhat.java",
-    "vscjava.vscode-maven",
-    "vscjava.vscode-java-debug",
-    "vscjava.vscode-java-test",
-    "vscjava.vscode-java-dependency",
-    "vscjava.vscode-gradle",
+
+    "vscjava.vscode-java-pack",
+    "vmware.vscode-boot-dev-pack",
+    "fwcd.kotlin",
+
     "bmewburn.vscode-intelephense-client",
     "xdebug.php-debug",
     "junstyle.php-cs-fixer",
     "neilbrayfield.php-docblocker",
+    "mehedidracula.php-namespace-resolver",
+    "laravel.vscode-laravel",
     "ryannaddy.laravel-artisan",
     "shufo.vscode-blade-formatter",
-    "mehedidracula.php-namespace-resolver",
-    "ms-dotnettools.csharp",
+
     "ms-dotnettools.csdevkit",
-    "ms-dotnettools.vscode-dotnet-runtime",
+
     "golang.go",
-    "golang.go-nightly",
-    "matklad.rust-analyzer",
+
     "rust-lang.rust-analyzer",
+
     "shopify.ruby-lsp",
+    "KoichiSasada.vscode-rdbg",
+
     "sswg.swift-lang",
-    "fwcd.kotlin",
+
+    "ms-mssql.mssql",
+    "ms-ossdata.vscode-pgsql",
+    "mongodb.mongodb-vscode",
+    "ms-azuretools.vscode-cosmosdb",
+    "prisma.prisma",
+    "mtxr.sqltools",
+    "cweijan.vscode-database-client2",
+
+    "ms-azuretools.vscode-containers",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
     "hashicorp.terraform",
     "redhat.ansible",
-    "ms-vscode-remote.remote-ssh-edit",
-    "eamodio.tsl-proxy",
-    "gruntfuggly.todo-tree"
+    "timonwong.shellcheck",
+
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-containers"
   ]
 }
